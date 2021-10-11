@@ -1,0 +1,9 @@
+.header {
+  height: 100%;
+  width: 100%;
+  grid-area: header;
+  background-color: var(--color-main-blue);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}

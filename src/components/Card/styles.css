@@ -1,0 +1,27 @@
+.card {
+  width: 100%;
+  height: calc(var(--spacing-large-scale) * 60);
+  display: flex;
+  background-color: var(--color-white);
+  border-radius: calc(var(--spacing-large-scale) * 2);
+  margin-top: calc(var(--spacing-large-scale) * 3);
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1),
+    0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.card-corner {
+  height: 100%;
+  width: 6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
