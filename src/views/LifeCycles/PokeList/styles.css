@@ -1,0 +1,21 @@
+.poke-list-container {
+  width: 100%;
+}
+
+.types-list {
+  width: 100%;
+  height: calc(var(--spacing-minor-scale) * 95);
+  list-style: none;
+  overflow-y: scroll;
+  margin: 0;
+  padding: 0;
+}
+
+.type-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: calc(var(--spacing-large-scale) * 20);
+  font-size: calc(var(--spacing-minor-scale) * 5);
+  margin-left: calc(var(--spacing-large-scale) * 3);
+}
